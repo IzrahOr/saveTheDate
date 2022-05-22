@@ -1,0 +1,17 @@
+/*------
+Variables */
+:root{
+    --back-color: #074075;
+}
+body{
+    background-color: var(--back-color);
+}
+header{
+    background:url('../images/intento4.svg') no-repeat center fixed;
+	background-size: cover;
+	width: 100%;
+    height: 100%;
+	position: absolute;
+	left:0;
+	top: 0;
+}
