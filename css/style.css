@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Mukta:wght@200&display=swap');
 /*------
 Variables */
 :root{
     --back-color: #074075;
+	--gold: #E0AA3E;
 }
 body{
     background-color: var(--back-color);
@@ -16,9 +17,8 @@ header{
 	left:0;
 	top: 0;
 	font-family: 'Arizonia', cursive;
-	font-size: 45px;
-	font-weight: 300;
-	color: gold;
+	font-size: 50px;
+	color: var(--gold);
 	align-items: center;
 	text-align: center;
 	text-decoration: none;
@@ -28,14 +28,13 @@ header{
 /**** SLIDER **/
 .slider{
 	width: 100%;
-	background-color: rebeccapurple;
 	left: 0;
 	padding: 0;
 	position: absolute;
 	margin-top: 50%;
 }
 .slider .title{
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
-
+	font-family: 'Mukta', sans-serif;
 }
